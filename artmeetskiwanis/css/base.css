@@ -1,0 +1,79 @@
+svg {
+    color: white;
+    width: 3rem;
+}
+
+svg:hover {
+    color: #999;
+}
+
+body {
+    font-family: Geist Mono;
+    color: black;
+}
+
+h1 {
+    font-family: Antipol-Variable;
+}
+
+h2 {
+    font-family: Antipol-Variable;
+}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+a {
+    font-family: Geist Mono;
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    padding: 3rem 0 3rem 0;
+    background-color: black;
+    color: white;
+}
+
+#header-logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Antipol-Variable;
+    text-transform: none;
+    font-size: 2rem;
+}
+
+.footer-logo {
+    max-width: 5rem;
+}
+
+.off-canvas-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-link {
+    text-decoration: none;
+    color: white;
+}
+
+.button-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar {
+    background-color: black;
+}
+
+@media (max-width: 1200px) {
+    #navbar {
+        padding: 1rem 0 1rem 0;
+    }
+}
